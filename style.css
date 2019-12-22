@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+footer span {
+  float: left;
+  clear: both;
+  display: block;
+  margin: 20px 0 0 50px;
+}
+
+ol {
+  margin: 20px 0 0 50px;
+}
+
+ol li {
+  margin: 10px 0;
+  font-family: sans-serif;
+  display: block;
+}
