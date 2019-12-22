@@ -1,0 +1,91 @@
+
+/*content*/
+.content{
+	padding-top: 30px;padding-bottom: 80px;
+}
+/*main content*/
+.main-content{
+	width: 829px;padding-right: 35px;padding-bottom: 15px;
+}
+.biggest-post>a.biggest-post-img{
+	width: 405px;height: 271px;display: block;float: left;margin-right: 28px;
+}
+.biggest-post>a>img{
+	width: 100%;height: auto;
+}
+.biggest-post-title{font-weight: 500;font-size: 24px;line-height: 33px;
+	color: #000000;margin-bottom: 15px;display:block;}
+.biggest-post>p{
+	font-size: 15px;font-weight: 500;line-height: 27px;color: #3f3f3f;text-align: justify;
+}
+.biggest-post{
+	margin-bottom: 30px;
+}
+.cover-post>li{
+	display: block;float: left;width: 390px;margin-right: 35px;margin-bottom: 20px;
+}
+.cover-post>li:nth-child(2n){
+	display: block;float: left;width: 368px;margin-bottom: 20px;margin-right: 0px;
+}
+.cover-post>li>a.cover-post-img{
+	width: 119px;height: 77px;display: block;float: left; margin-right: 20px;
+}
+.cover-post>li>a.cover-post-img>img{
+	width: 100%;height: auto;
+}
+.cover-post-title{
+	color: black;line-height: 20px;font-weight: 700;font-size: 14px;
+}
+
+/*phần những bài viết khác của danh mục sự kiện*/
+.time-news:before {
+	content: '\f017';
+	font-family: Fontawesome;
+	font-size: 12px;
+	color: #9d9d9d;padding-right: 5px;
+}
+.other-news>li>p.intro-of-new{
+	font-weight: 400;font-size: 14px;line-height: 24px;color:#464646;
+}
+.other-new-photo{
+	width: 250px;height: 140px;display: block;margin-right: 15px;float: left;
+}
+.other-new-photo>img{
+	width: 100%;height: auto;
+}
+.other-news>li{
+	margin-top: 30px;display: block;
+}
+.other-news>li>a{
+	font-weight: 400;
+	font-size: 20px;line-height: 24px;color:black;
+}
+.time-news{
+	margin-top: 6px;margin-bottom: 6px;font-size: 12px;color: #959595;
+}
+.other-news{
+	border-top: 1px solid #01a050;margin-top: 15px; margin-bottom: 	40px;padding-top: 10px;
+}
+/*slice post page*/
+.slice-pages>li>span{
+	display: inline-block;margin-right: 15px;font-size: 14px;line-height: 30px;float: left;color: black;
+	padding-bottom: 5px;
+}
+.slice-pages>li.activate{
+	background: #01a050;
+}
+.slice-pages>li.activate>a{
+	color: white;
+}
+.slice-pages>li{
+	display: inline-block;margin-right: 5px;
+}
+.slice-pages>li>a{
+	color: black;font-size: 13px;
+	border:1px solid #dedede;float: left;width: 36px;height: 36px;text-align: center;padding-top: 10px;
+}
+#next-font{position: relative;}
+#next-font:after{
+	content: '\f105';font-family: Fontawesome;font-size: 15px;position: absolute;top:10px;left: 15px;
+}
+.slice-pages{text-align: center;}

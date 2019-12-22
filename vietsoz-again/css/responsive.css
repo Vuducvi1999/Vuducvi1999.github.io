@@ -1,0 +1,21 @@
+@media screen and (max-width:1280px) {
+	.header-wp{width: 100%;}
+	.content-wp{width: 100%;}
+	.footer-wp{width:100%;}
+	.copyright{width: 100%;}
+}
+@media screen and (max-width:768px){
+	.header-wp{width: 100%;}
+	.content-wp{width: 100%;}
+	.footer-wp{width:100%;}
+	.copyright{width: 100%;}
+}
+@media screen and (max-width: 480px) {
+	.header-wp{width: 100%;}
+	
+	.footer-wp{width:100%;}
+	.copyright{width: 100%;}
+}
+@media screen and (max-width: 320px){
+	
+}

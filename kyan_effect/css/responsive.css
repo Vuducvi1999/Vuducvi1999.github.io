@@ -1,0 +1,16 @@
+#menu-responsive{display: none;}
+
+@media screen and (max-width:1024px) {
+	#wrapper{width: 100%;}
+}
+
+@media screen and (max-width:784px) {
+	#menu{display: none;}
+	#menu-responsive-icon{display: block;}
+}
+@media screen and (max-width:430px) {
+	#content,#sidebar{width: 100%;}
+}
+@media screen and (max-width: 320px){
+	
+}

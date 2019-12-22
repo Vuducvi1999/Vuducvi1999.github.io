@@ -1,0 +1,540 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.box:hover .info {
+  transform: translateY(0px);
+}
+
+.intro {
+  position: absolute;
+  top: 86%;
+  left: 4%;
+  font-size: 20px;
+  color: #fff;
+  margin-left: 20px;
+  opacity: 0;
+  animation: hienra 0.5s forwards;
+  animation-delay: 1.5s;
+}
+@keyframes hienra {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.horizontal {
+  transform: rotate(90deg);
+  border: 1px solid #fff;
+  position: absolute;
+  top: 89%;
+  left: 1.5%;
+  background: #fff;
+  animation: dilen_ 1s forwards;
+  width: 4.5%;
+  opacity: 0;
+  overflow: hidden;
+  animation-delay: 0.5s;
+}
+
+.title {
+  font-size: 87px;
+  color: #fff;
+  position: absolute;
+  top: 35%;
+  left: 3%;
+  animation: dilen 1s forwards;
+  animation-delay: 0s;
+  font-family: sans-serif;
+  width: 50%;
+}
+
+* {
+  font-family: 'Biotif', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+}
+
+.view_project {
+  /* position: relative; */
+  /* display: none; */
+  transition: 0.5s;
+  transform: translateX(-15px);
+}
+
+.intro span:nth-child(3) {
+  float: left;
+}
+
+.container {
+  float: right;
+}
+
+.logo {
+  cursor: pointer;
+  font-size: 40px;
+  float: left;
+  margin-top: 7px;
+}
+body {
+  line-height: 1;
+  color: #555;
+}
+
+nav.menu {
+  position: absolute;
+  top: 5%;
+  left: 3%;
+  width: 97%;
+  color: #fff;
+}
+ol,
+ul {
+  list-style: none;
+}
+
+ul.list.clearfix {
+  float: left;
+  padding-top: 5px;
+}
+
+ul.list.clearfix > li {
+  float: left;
+  margin: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  overflow: hidden;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+:focus {
+  outline: 0;
+}
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+}
+
+.clearfix:after {
+  content: '.';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clearfix {
+  clear: both;
+  /* text-align: center; */
+  display: block;
+}
+
+section.effect_box.clearfix {
+  text-align: center;
+}
+
+html[xmlns] .clearfix {
+  display: block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.the-end {
+  text-align: center;
+  font-size: 40px;
+  color: #ff7700d1;
+  margin: 20px 0;
+}
+
+.to {
+  position: absolute;
+  top: 85%;
+  overflow: hidden;
+  left: 10%;
+}
+
+.view_project > a {
+  color: #fff;
+  float: left;
+  /* transform: translateY(20px); */
+  font-size: 20px;
+  margin-left: 5px;
+  /* transform: translateX(-15px) translateY(20px); */
+  transition: 1s;
+  /* display: none; */
+  /* display: block; */
+}
+
+.view_project > a:hover {
+}
+
+.view_project > i {
+  float: left;
+  color: #1da1f2;
+  font-size: 20px;
+  transform: rotate(-90deg);
+  padding: 0px;
+  transition: 1s;
+  /* position: absolute; */
+  /* display: none; */
+  /* top: 40px; */
+  /* left: 0; */
+}
+
+h1 {
+}
+
+.info {
+  /* position: absolute; */
+  /* top: 85%; */
+  /* overflow: hidden; */
+  transform: translateY(20px);
+  transition: 0.3s;
+}
+
+.info > h1 {
+  color: white;
+  margin-bottom: 10px;
+  font-size: 30px;
+  transition: 0.3s;
+  float: left;
+  /* transform: translateY(30px); */
+}
+
+.box {
+  width: 30%;
+  text-align: center;
+  overflow: hidden;
+  float: left;
+  margin: 0 20px;
+  position: relative;
+  height: 680px;
+}
+
+.box:hover add_bg {
+  background: #33333361; /* width: 100%; */ /* height: 100%; */
+}
+
+.box:hover .add_bg {
+  background: #00000063;
+}
+
+.add_bg {
+  width: 100%;
+  /* height: 680px; */
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.box:hover .info a {
+  /* transform: translateY(0px)translateX(-15px); */
+  /* animation: hiendan 0.3s forwards; */
+}
+
+.box:hover .info > h1 {
+  /* transform: translateY(0px); */
+  transition: 0.3s;
+}
+
+.box:hover .info a {
+  /* display: block; */
+  /* animation: hiendan 0.3s forwards; */
+  /* transform: translateY(0px); */
+  transform: translateX(0px);
+}
+
+.box:hover .info a:hover {
+  /* animation: loikhacphucthei 0.3s forwards; */
+}
+
+.view_project > a:hover {
+}
+
+.box2.box {
+  /* width: auto; */
+  /* transform: scale(1.5) translateX(-22%); */
+}
+
+.box2.box > img {
+  /* width: auto; */
+  /* transform: scale(1.5) translateX(-22%); */
+}
+
+.box3.box > img {
+  /* width: auto; */
+  /* transform: scale(1.5) translateX(-22%); */
+}
+
+.box > img {
+  /* width: 100%; */
+  width: auto;
+  transform: scale(1) translateX(-35%);
+  transition: 0.3s;
+}
+
+.box:hover img {
+  transform: scale(1.02) translateX(-34%);
+  /* transition: 0.3s; */
+}
+
+.notify {
+  margin: auto;
+  text-align: center;
+  margin: 30px 0;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+main.clearfix {
+  margin-top: 10px;
+}
+
+.source {
+  position: absolute;
+  top: 25%;
+  left: 3%;
+  color: #fff;
+}
+
+.source > a {
+  color: rgb(29, 161, 242);
+}
+
+.intro span:nth-child(1) {
+  font-weight: 600;
+  margin-bottom: 5px;
+  float: left;
+}
+
+.thanhchay {
+  opacity: 0;
+  margin-top: 8px;
+  border: 1px solid #fff;
+}
+
+.button {
+  font-weight: 600;
+  float: right;
+  font-size: 25px;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 5px;
+  background: #fff;
+  color: #000;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  /* font-weight: 600; */
+  /* float: right; */
+  /* font-size: 25px; */
+  padding: 9px;
+  /* margin-left: 20px; */
+  /* margin-right: 20px; */
+  /* margin-top: 5px; */
+  background: #000;
+  color: #fff;
+  border-radius: 2px;
+  border: 1px solid #fff;
+  transition: 0.5s;
+}
+
+section img {
+  width: 100%;
+  height: 100%;
+}
+
+section.cover_all {
+  height: 721px;
+  position: relative;
+}
+.thanhchay {
+  opacity: 1;
+  transform: translateX(-100px);
+}
+ul.list.clearfix > li:hover .thanhchay {
+  /* animation: keduoi 5s forwards; */
+  transition-timing-function: ease;
+  transition: 0.3s;
+  transform: translateX(0px);
+}
+@keyframes keduoi {
+  0% {
+    transform: translateX(-100px);
+    transition-timing-function: cubic-bezier(0.09, 0.96, 0.28, 0.99);
+    transition: 1s;
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    transition-timing-function: cubic-bezier(0.09, 0.96, 0.28, 0.99);
+    transition: 1s;
+    opacity: 1;
+  }
+}
+@keyframes dilen {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes dilen_ {
+  0% {
+    opacity: 0;
+    transform: translateY(50px) rotate(90deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(90deg);
+    opacity: 1;
+  }
+}
+.cover_all i.fa.fa-angle-down {
+  position: absolute;
+  top: 84%;
+  left: 90%;
+  color: rgb(29, 161, 242);
+  font-size: 30px;
+  background: #fff;
+  border-radius: 50%;
+  padding: 5px 10px;
+  transition: 0.2s;
+  cursor: pointer;
+  border: 2px solid #fff;
+}
+.cover_all i.fa.fa-angle-down:hover {
+  background-color: #fff0;
+}
+@keyframes hiendan {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) translateX(-15px);
+    transform: translateX(-15px) translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) translateX(-15px);
+    transform: translateX(-15px) translateY(0px);
+  }
+}
+
+@keyframes loikhacphucthei {
+  0% {
+    transform: translateX(-15px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+@keyframes sangphai {
+}
+@keyframes sangphai_ {
+  0% {
+    transform: rotate(-90deg) translateY(-13px);
+  }
+  100% {
+    transform: rotate(-90deg) translateY(0px);
+  }
+}
